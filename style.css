@@ -1,0 +1,53 @@
+/* Basic styling to beautify the anime watch list */
+h1,
+h2 {
+  color: darkmagenta;
+  text-align: center;
+}
+
+.box > p {
+  color: firebrick;
+  font-style: italic;
+}
+
+.box li {
+  color: blue;
+  list-style-type: square;
+}
+
+div > li.done {
+  color: seagreen;
+  text-decoration: line-through;
+}
+
+ul > p.done {
+  color: green;
+  font-size: 1rem;
+}
+
+ul > li#opm.done {
+  text-decoration: line-through;
+}
+ul li#cote.done {
+  text-decoration: line-through;
+}
+ul li#dn.done {
+  text-decoration: line-through;
+}
+
+.quote {
+  color: midnightblue;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for the Yami Sukehiro quote */
+#quotehere {
+  font-style: italic;
+  color: darkslategrey;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
